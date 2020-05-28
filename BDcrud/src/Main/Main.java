@@ -13,15 +13,15 @@ public class Main {
 		
 		do {
 			
-			System.out.println("\n______________________________________________\n|");
-			System.out.println("|Digite a opção:                                |\n|");
-			System.out.println("|1. Adicionar aluno;                            |\n|");
-			System.out.println("|2. Buscar aluno;                               |\n|");
-			System.out.println("|3. Remover aluno;                              |\n|");
-			System.out.println("|4. Editar dados de aluno;                      |\n|");
-			System.out.println("|5. Listar todos os alunos;                     |\n|");
-			System.out.println("|0. Sair                                        |\n|");
-			System.out.println("|\n______________________________________________\n");
+			System.out.println("+-----------------------------------------------+\n|                                               |");
+			System.out.println("|Digite a opção:                                |\n|                                               |");
+			System.out.println("|1. Adicionar aluno;                            |\n|                                               |");
+			System.out.println("|2. Buscar aluno;                               |\n|                                               |");
+			System.out.println("|3. Remover aluno;                              |\n|                                               |");
+			System.out.println("|4. Editar dados de aluno;                      |\n|                                               |");
+			System.out.println("|5. Listar todos os alunos;                     |\n|                                               |");
+			System.out.println("|0. Sair                                        |\n|                                               |");
+			System.out.println("+-----------------------------------------------+\n");
 			int opcao = Teclado.nextInt();
 			Teclado.nextLine();
 			

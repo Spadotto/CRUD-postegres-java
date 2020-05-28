@@ -17,11 +17,9 @@ public class Conexao {
 		senha = "061219";
 		
 		try {
-			
 			Class.forName("org.postgresql.Driver");
 			con = DriverManager.getConnection(url, usuario, senha);
 			System.out.println("Conexão realizada com sucesso!");
-			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
