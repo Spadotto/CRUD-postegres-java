@@ -1,0 +1,6 @@
+CREATE DATABASE alunos;
+
+CREATE TABLE alunos (
+	id integer CONSTRAINT pk_id_aluno PRIMARY KEY,
+	nome VARCHAR(80) NOT NULL,
+	turma VARCHAR(30) NOT NULL);
